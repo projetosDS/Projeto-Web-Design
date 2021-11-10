@@ -118,3 +118,86 @@
     transition: 0.5s;
   }
 
+body{
+    padding:0px 20px;
+}
+
+#nav {
+    background-color: #efefef;
+}
+
+.navbar-brand .logo {
+    height: 3rem
+}
+
+
+
+footer {
+   background-color:rgb(34, 34, 34);
+   color: #fff;
+}
+
+.footer_info {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   padding: 50px 0;
+}
+
+.footer_info .footer_width {
+   padding: 0 15px;
+}
+
+.footer_info h2 {
+   margin-bottom: 20px;
+}
+
+.about , .get_in_touch {
+   width: 40%;
+}
+
+.main_links {
+   width: 20%;
+}
+
+.sec-1{
+    grid-template-columns: auto;
+    display: flex;
+    padding: 5rem;
+    padding-bottom: 8rem;
+    background-color: #1b2026;
+}
+
+.container{
+    position: relative;
+    word-wrap: break-word;
+}
+
+#tx1{
+    font-size: 1rem;
+    color: #cdcdcd;
+}
+
+#tx2{
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.button {
+    background-color: #fff;
+    width: 10rem;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+a .text-black {
+    justify-content: center;
+    text-decoration: none;
+}
+
+#text-0{
+    padding: 0px;
+}
+
