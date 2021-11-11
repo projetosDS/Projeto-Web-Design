@@ -89,8 +89,7 @@
 }
 .icones li a {
     text-decoration: none;
-    /* display: inline; */
-    
+        
   }
 
 .icones i {
@@ -157,7 +156,6 @@
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-
 
 }
 
