@@ -161,6 +161,7 @@
 
 }
 
+/* Section 2*/
 
 .sec2 {
     padding:  100px 0px;
@@ -218,6 +219,23 @@
     list-style: none;
 
 }
+
+/* Section 3*/
+/* 
+.container {
+    display: grid;
+}
+
+.titulo-sec03 {
+    padding: 5%;
+    font-size: 60px;
+    font-weight: 650;
+    text-align: center;
+}
+ */
+
+
+
 
 
 
