@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 #nav {
     
     background-color: #efefef;
@@ -23,12 +24,10 @@
    color: black;
 }
 
-
 .navbar-brand .logo {
     height: 3.5rem;
     padding-left: 35px;
     padding-right: 13px;
-    
 }
 
 #menuNav ul li a {
@@ -43,6 +42,7 @@
 }
 
 #menuNav ul li a:before {
+
     content: '';
     width: 0px;
     height:  3px;
@@ -82,16 +82,16 @@
     margin: 0;
     padding-right: 50px;
 }
+
 .icones li {
     display: inline-block;
-    list-style: none;
-          
+    list-style: none;   
 }
+
 .icones li a {
     text-decoration: none;
     /* display: inline; */
-    
-  }
+}
 
 .icones i {
     display: flex;
@@ -104,14 +104,12 @@
     border-radius: 10px;
     margin: 0px 3px;    
     font-size: 23px;
-    
-
   }
 
 .icone i{ 
     font-size: 25px;
-
 }
+
 .icones li a i:hover {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -126,7 +124,6 @@
     background-color: #1b2026;
 
 }
-
 
 #textoSecundario {
     padding-bottom: 10px;
@@ -145,7 +142,6 @@
     font-size: 70px;
     color: white;
 }
-
 
 .button-sec1{
     margin-left: 45px;
@@ -198,7 +194,6 @@
 
 
 .button-sec2 {
-    
     padding: 16px 41px;
     background-color: #1b2026;
     color: #ffffff;
@@ -221,23 +216,88 @@
 }
 
 /* Section 3*/
-/* 
-.container {
-    display: grid;
-}
 
 .titulo-sec03 {
-    padding: 5%;
+    padding: 4%;
     font-size: 60px;
     font-weight: 650;
     text-align: center;
 }
- */
+
+/* Cards das estremidades */
+
+.cards{
+    background-color: rgb(230, 230, 230);
+    padding: 5%;
+    transition: 0.5s;
+    width: 30%;
+    height: 27rem ;
+}
+
+.icon-card {
+    font-size: 60px;
+    padding-bottom: 10% ;
+    color: rgb(252, 138, 172);
+}
+
+.titulo-card {
+    font-size: 150%;
+    font-weight: bolder;
+    padding: 5% 0%;
+}
+
+.texto-card {
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+}
+
+.fa-plus {
+    font-size: 60px;
+    padding: 10% 0%;
+    font-weight: 300;
+    color: rgb(252, 138, 172);
+}
 
 
+/* INACABADO */
+.cards:hover {
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
 
 
+/* Card do meio */
 
+.card02 {
+    background-color: rgb(44, 44, 44);
+    padding: 5%;
+    color: white;
+    width: 30%;
+    margin: 0% 3%;
+    height: 27rem ;
+}
+
+.card02-icon {
+    font-size: 60px;
+    padding-bottom: 10% ;   
+}
+
+.card02-titulo{
+    font-size: 150%;
+    font-weight: bolder;
+    padding: 5% 0%;
+}
+
+.card02-texto{
+    font-size: 110%;
+    font-weight: 500;
+}
+
+.fa-plus-circle{
+    font-size: 60px;
+    padding: 10% 0%;
+}
 
 
 /* footer {
