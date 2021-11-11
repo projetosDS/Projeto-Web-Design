@@ -24,6 +24,7 @@
    color: black;
 }
 
+
 .navbar-brand .logo {
     height: 3.5rem;
     padding-left: 35px;
@@ -87,6 +88,16 @@
     display: inline-block;
     list-style: none;   
 }
+.icones li {
+    display: inline-block;
+    list-style: none;
+          
+}
+.icones li a {
+    text-decoration: none;
+    /* display: inline; */
+    
+  }
 
 .icones li a {
     text-decoration: none;
@@ -109,6 +120,18 @@
 .icone i{ 
     font-size: 25px;
 }
+.icones li a i:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+  }
+
+
+/* Section 1 */
+
+#sec1{
+    padding: 220px 0px 170px;
+    background-color: #1b2026;
 
 .icones li a i:hover {
     background-color: rgb(0, 0, 0);
