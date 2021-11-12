@@ -166,6 +166,7 @@
 }
 
 .button-sec1{
+    border: 0;
     margin-left: 45px;
     margin-top: 60px;
     padding: 16px 32px;
@@ -175,8 +176,16 @@
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-
+    
 }
+
+.button-sec1:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: white 2px solid;
+   
+}
+
 
 /* Section 2*/
 
@@ -238,26 +247,122 @@
 
 /* Section 3*/
 
-.titulo-sec03 {
-    padding: 4%;
-    font-size: 60px;
-    font-weight: 650;
-    text-align: center;
+.sec3 {
+
 }
+.tituloSec3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5%;
+    font-size: 60px;
+
+}
+
+.card {
+    
+    background-color: #efefef;
+
+}
+
+.card:hover {
+    background-color: #1b2026;
+    transition: 0.5s;
+    color: white;
+    
+
+}
+
+.card:hover .icon-card{
+    transition: 0.5s;
+    color: white;
+    
+
+}
+
+
+.card:hover .card-text{
+    transition: 0.5s;
+    color: white;
+    
+
+}
+
+.card:hover .icon-card-footer {
+    color: #ffffff;
+}
+
+
+.card-body{
+    margin-left: 10px;
+    padding-left: 25px;
+
+}
+.icon-card {
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #ff8484;
+}
+
+
+
+.card-title {
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.card-text {
+    color: #867a82;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.icon-card-footer {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 70px;
+    color: #ff8484;
+}
+
+.icon-card-footer p{
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    color: #efefef;
+    font-size: 15px;
+}
+
+.icon-card-footer p:hover{
+    transition: 1s;
+  
+}
+
+
+
+/* .titulo-sec03 {
+    font-family: 'DM Sans', sans-serif;
+    padding: 5%;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+} */
 
 /* Cards das estremidades */
 
-.cards{
+/* .cards{
     background-color: rgb(230, 230, 230);
-    padding: 5%;
+  
     transition: 0.5s;
-    width: 32%;
-    height: 27rem ;
+    
 }
 
 .icon-card {
     font-size: 60px;
-    padding-bottom: 10% ;
     color: rgb(252, 138, 172);
 }
 
@@ -278,14 +383,14 @@
     padding: 10% 0%;
     font-weight: 300;
     color: rgb(252, 138, 172);
-}
+} */
 
 
 /* INACABADO */
-.cards:hover {
+/* .cards:hover {
     background-color: #343a40;
     color: white;
-}
+} */
 
 
 /* Card do meio */
@@ -299,7 +404,7 @@
         
 } */
 
-.card02 {
+/* .card02 {
     background-color: #343a40;
     padding: 5%;
     color: white;
@@ -327,7 +432,7 @@
 .fa-plus-circle{
     font-size: 60px;
     padding: 10% 0%;
-}
+} */
 
 
 /* Section 4 */
