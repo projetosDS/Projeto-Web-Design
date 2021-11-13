@@ -8,8 +8,8 @@
 ul {
    list-style: none; 
 }
-#nav {
-    
+#Nav {
+    color: #1b2026;
     background-color: #efefef;
     padding: 17px 0;
 }
@@ -181,7 +181,8 @@ ul {
 /* Section 2*/
 
 .sec2 {
-    padding:  100px 0px;
+    font-family: 'DM Sans', sans-serif;
+    padding:  80px 0px;
     background-color: #efefef; 
 }
 .coluna1 {
@@ -189,31 +190,29 @@ ul {
 }
 
 .coluna1 img{
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
 }
 
 .coluna2 {
-    padding: 50px 0px;
-    padding-left: 70px;
+    padding: 30px 0px;
+    padding-top: 75px;
 }
 
 .textoPrincipal-sec2 {
-    font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     font-size: 54px;
 
 }
 
 .textoSecundario-sec2 {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'DM Sans', sans-serif;
     color: #867a82;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 200;
 }
-
-
 
 .button-sec2 {
     border: 0;
@@ -235,7 +234,7 @@ ul {
 
 .iconesLista ul{
     list-style: none;
-
+    font-size: 25px;
 }
 
 
@@ -267,6 +266,10 @@ ul {
     color: #fff;
 }
 
+#icon-card0 {
+    color: #fff;
+}
+
 .card:hover {
     background-color: #1b2026;
     transition: 0.5s;
@@ -292,6 +295,7 @@ ul {
     margin-left: 10px;
     padding-left: 25px;
 }
+
 
 .icon-card {
     margin-top: 50px ;
@@ -562,7 +566,205 @@ footer {
 
 
 @media screen  and (max-width: 760px){
+    
+    /* Section 1 */
+
+    #sec1{
+        padding: 15% ;
+        background-color: #1b2026;
+
+    }
+
+    #textoSecundario {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1rem;
+        color: #cdcdcd;
+    
+    }
+
+    #textoPrincipal {  
+        text-align: center;
+        font-size: 2.9em;
+        color: white;
+    }
+
+    .button-sec1{
+        text-align: center;
+        width: 50%;
+        margin-left: 29%;
+        margin-right: 30%;
+        margin-top: 5%;
+        padding: 16px 32px;
+       
+    }
+     /* Section 2*/
+
+    .sec2 {
+        padding:  10% 5%;
+    }
+    .coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coluna1 img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .coluna2 {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .textoPrincipal-sec2 {
+        font-size: 3.0rem;
+
+    }
+
+    .textoSecundario-sec2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'DM Sans', sans-serif;
+        color: #867a82;
+        font-size: 1.3rem;
+        font-weight: 200;
+    }
+
+
+    
+    .iconesLista ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+
+    
+    /* Section 3*/
+
+    .sec3Container {
+        
+
+    }
+    .tituloSec3 {
+        text-align: center;
+        font-size: 3.5rem;
+
+    }
+
+    .card {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-bottom: 10%;
+        background-color: #efefef;
+
+    }
+
+    .card0 {
+        margin-bottom: 10%;
+
+    }
+
+    .icon-card {
+        display: flex;
+        justify-content: center;
+        font-size: 5.0rem;
+        color: #ff8484;
+    }
+
+    .card-title {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    .card-text {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 2%;
+        padding-left: 5%;
+    }
+
+    .icon-card-footer {
+        display: flex;
+        padding-top: 50px;
+        /* padding-left: 20px; */
+        font-weight: 400;
+        font-size: 70px;
+        color: #ff8484;
+    }
+
+    .icon-card-footer p{
+        display: inline-block;
+        font-family: 'DM Sans', sans-serif;
+        color: #efefef;
+        font-size: 15px;
+    }
+
+
+    /* Section 4 */
+
     .sec4 {
-        background-color: rgb(0, 0, 0);
-    }    
+        padding:  100px 0px;
+        background-color: #efefef; 
+
+    }
+
+    
+    .sub-titulo-sec4 {
+        padding-left: 50px;
+
+        color: #ff8484;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .titulo-sec4 {
+        padding-left: 50px;
+
+        color: white;
+        font-size: 55px;
+        font-weight: 900;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .email-sec4 {
+        border: none;
+        margin-bottom: 55px;
+        padding: 20px 0px;
+        border-radius: 5px;
+        width: 65%;
+        background-color: #31363b;
+        color: #ffffff;
+        font-family: 'DM Sans', sans-serif;
+        display: inline;
+
+
+
+    }
+
+    .butttonSec4 {
+        border: #efefef 1px solid;
+        border-radius: 5px;
+        padding: 18px 30px;
+        background-color: #ff8484;
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 15px;
+
+    }
+    .butttonSec4:hover {
+        background-color: #31363b;
+        transition: .5s;
+        color: white;
+
+    }
+
+    .input-sec4 {
+        align-self: flex-end;
+    }
+
 }
