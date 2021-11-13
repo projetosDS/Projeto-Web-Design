@@ -1,52 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
-/* Menu */ 
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
+
 
 ul {
-   list-style: none; 
-}
-#Nav {
-    color: #1b2026;
-    background-color: #efefef;
-    padding: 17px 0;
-}
-
-.menunavbar-brand {
+    list-style: none; 
+ }
+ #Nav {
+     color: #1b2026;
+     background-color: #efefef;
+     padding: 0px 0px;
+ }
+ 
+ .menunavbar-brand {
+     color: black;
+     font-family: 'DM Sans', sans-serif;
+     font-weight: 700;    
+     font-size: 28.6px;
+     padding-right: 60px;
+     text-decoration: none;
+ }
+ 
+ .menunavbar-brand:hover{
     color: black;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;    
-    font-size: 28.6px;
-    padding-right: 60px;
-    text-decoration: none;
-}
-
-.menunavbar-brand:hover{
-   color: black;
-}
-
-
-.menunavbar-brand .logo {
-    height: 3.5rem;
-    padding-left: 35px;
-    padding-right: 13px;
-}
-
-#menuNav ul li a {
-
-    color: #2c2c2c;
-    font-weight: 500;
-    font-size: 18.6px;
-    margin: 0px 10.56px;
-    padding: 0 10.56px;
-    font-family: 'DM Sans', sans-serif;
-    position: relative;
-}
-
-#menuNav ul li a:before {
-
+ }
+ 
+ 
+ .menunavbar-brand .logo {
+     height: 3.5rem;
+     padding-left: 35px;
+     padding-right: 0px;
+ }
+ 
+ .menuNav  ul li a {
+     color: #2c2c2c;
+     font-weight: 500;
+     font-size: 20px;
+     text-align: center;
+     margin: 0px 10.56px;
+     padding: 0 10.56px;
+     font-family: 'DM Sans', sans-serif;
+     position: relative;
+ }
+ 
+ .menuNav ul li a:before {
     content: '';
     width: 0px;
     height:  3px;
@@ -56,10 +56,10 @@ ul {
     left: 0;
     transition: 0.5s;
     mix-blend-mode: multiply;
-}
-
-#menuNav ul li a:after {
-
+ }
+ 
+ .menuNav ul li a:after {
+ 
     content: '';
     width: 0px;
     height:  3px;
@@ -69,65 +69,61 @@ ul {
     right: 0;
     transition: 0.5s;
     mix-blend-mode: multiply;
-}
-
-#menuNav ul li:hover a:before{
-    width: 50%;   
-    transform: translateX(100%); 
-}
-
-#menuNav ul li:hover a:after {
-    width: 50%;   
-    transform: translateX(-100%); 
-}
-
-.icones {   
-    padding: 0;
-    margin: 0;
-    padding-right: 50px;
-}
-
-.icones li {
-    display: inline-block;
-    list-style: none;   
-}
-.icones li {
-    display: inline-block;
-    list-style: none;
-          
-}
-.icones li a {
-    text-decoration: none;
-        
-  }
-
-.icones li a {
-    text-decoration: none;
-    /* display: inline; */
-}
-
-.icones i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    margin: 0px 3px;    
-    font-size: 23px;
-  }
-
-.icone i{ 
-    font-size: 25px;
-}
-.icones li a i:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    transition: 0.5s;
-  }
-
+ }
+ 
+.menuNav  ul li:hover a:before{
+     width: 50%;   
+     transform: translateX(100%); 
+ }
+ 
+ .menuNav ul li:hover a:after {
+     width: 50%;   
+     transform: translateX(-100%); 
+ }
+ 
+ .icones {   
+     padding: 0;
+     margin: 0;
+     padding-right: 50px;
+ }
+ 
+ .icones li {
+     display: inline-block;
+     list-style: none;   
+ }
+       
+ .icones li a {
+     text-decoration: none;
+         
+   }
+ 
+ .icones li a {
+     text-decoration: none;
+     /* display: inline; */
+ }
+ 
+ .icones i {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     background-color: rgb(255, 255, 255);
+     width: 50px;
+     height: 50px;
+     border-radius: 10px;
+     margin: 0px 3px;    
+     font-size: 23px;
+   }
+ 
+ .icone i{ 
+     font-size: 25px;
+ }
+ .icones li a i:hover {
+     background-color: rgb(0, 0, 0);
+     color: white;
+     transition: 0.5s;
+   }
+ 
 
 
 /* Section 1 */
@@ -566,7 +562,14 @@ footer {
 
 
 @media screen  and (max-width: 860px){
-    
+    #Nav {
+        padding: 22px 0px;
+
+    }
+
+ransition: 0.5s;
+  }
+
     /* Section 1 */
 
     #sec1{
