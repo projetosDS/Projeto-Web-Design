@@ -565,7 +565,7 @@ footer {
 } */
 
 
-@media screen  and (max-width: 760px){
+@media screen  and (max-width: 860px){
     
     /* Section 1 */
 
@@ -690,10 +690,12 @@ footer {
 
     .icon-card-footer {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 9.5rem;
         padding-top: 50px;
         /* padding-left: 20px; */
         font-weight: 400;
-        font-size: 70px;
         color: #ff8484;
     }
 
@@ -715,56 +717,110 @@ footer {
 
     
     .sub-titulo-sec4 {
-        padding-left: 50px;
-
-        color: #ff8484;
-        font-family: 'DM Sans', sans-serif;
-        font-weight: bold;
+        padding-left: 0;
+        text-align: center;        
     }
 
     .titulo-sec4 {
-        padding-left: 50px;
+        padding-left: 0;
+        text-align: center;        
 
-        color: white;
-        font-size: 55px;
-        font-weight: 900;
-        font-family: 'DM Sans', sans-serif;
     }
 
     .email-sec4 {
-        border: none;
-        margin-bottom: 55px;
+        margin-bottom: 30px;
         padding: 20px 0px;
-        border-radius: 5px;
-        width: 65%;
-        background-color: #31363b;
-        color: #ffffff;
-        font-family: 'DM Sans', sans-serif;
-        display: inline;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+
 
 
 
     }
 
     .butttonSec4 {
-        border: #efefef 1px solid;
-        border-radius: 5px;
-        padding: 18px 30px;
+        padding: 20px 50px;
         background-color: #ff8484;
-        color: white;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    
+    /* Section 5 */
+
+    .sec5 {
+        padding: 5%;
+    }
+
+    
+
+    .img-sec5 img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .bloc-texto-sec5{
+        text-align: center;
         font-family: 'DM Sans', sans-serif;
-        font-size: 15px;
-
-    }
-    .butttonSec4:hover {
-        background-color: #31363b;
-        transition: .5s;
-        color: white;
-
     }
 
-    .input-sec4 {
-        align-self: flex-end;
+    .bloc-texto-sec5 h5 {
+        text-align: center;
+
+        color: #777777;
+        font-size: 20px;
+    }
+
+    .bloc-texto-sec5 p {
+        text-align: center;
+
+        color: #777777;
+        font-size: 20px;
+
+    }
+
+    .bloc-texto-sec5 h1{
+        text-align: center;
+        font-size: 55px;
+    }
+
+
+
+    .bloc-texto-sec5 ul{
+        list-style: none;
+
+    }
+
+
+    .bloc-texto-sec5 ul li{
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .icon-sec5{
+        
+        padding-right: 0px;
+        font-size: 40px;
+    }
+
+    .bloc-texto-sec5 ul li p{
+        padding-left: 70px;
+    }
+    
+    
+    footer {
+       padding: 0;
+       margin: 0;
     }
 
 }
