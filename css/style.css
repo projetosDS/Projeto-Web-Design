@@ -235,10 +235,15 @@ ul {
     transition: 0.5s;
 
 }
-
-.iconesLista ul{
+.textolista {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.iconesLista ul{ 
+    display: block;
+    font-family: 'DM Sans', sans-serif;
     list-style: none;
-    font-size: 25px;
 }
 
 
