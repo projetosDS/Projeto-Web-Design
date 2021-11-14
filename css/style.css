@@ -13,6 +13,7 @@ ul {
      color: #1b2026;
      background-color: #efefef;
      padding: 0px 0px;
+     
  }
 
  .menunavbar-brand {
@@ -39,8 +40,6 @@ ul {
 
  }
  
- 
-
  .menuNav  ul li a {
     color: #2c2c2c;
      font-weight: 500;
